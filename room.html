@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>The Overlook Hotel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Playball&display=swap"
+    rel="stylesheet">
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/LOGO_black.png" alt="The Overlook Hotel-Logo"
+          style="width: 200px; height: auto;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav me-auto">
+          <ul class="nav nav-pills">
+            <!--Nav Pills-->
+            <li class="nav-item" data-bs-toggle="pill"> 
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link active" href="room.html">Our Rooms</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="team.html">Our Team</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+          </ul>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+ 
+  <div class="container-fluid text-center mt-5 mb-5">
+        <h1>Our Rooms and Suites</span>
+        </h1>
+        <p>
+         <b> <i> The Overlook Hotel rooms and suites will give you the refreshing experience that you deserve. Our hotel has an
+          ocean inspired look and is located next to the beach. </i>
+          <br> <br> Book now and relax at our resort.
+        </b>
+        </p>
+      </div>
+    </div>
+    </div>
+
+
+
+    <div class="container-fluid ">
+      <!-- container fluid for use full secreen -->
+  
+      <div class="row">
+        <!-- using row class for building row -->
+  
+        <div class="col-md-8 p-sm-5">
+          <!--col-md-3 using for 3colum of container in one row of medium screen/ using padding on sm responsive arround the colum-->
+  
+          <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Single Room</button></div>
+          <!-- d-grid used in bootstrap to display as grid layout / d- as display in css.-->
+  
+  
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!--class carousel slide adds a transition and animation effect, which makes the items slide when showing a new item-->
+            <!--data-ride="carousel" attribute tells Bootstrap to begin animating the carousel immediately when the page loads-->
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <!--The indicators are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user is currently viewing).
+                             The indicators are specified in an ordered list with class .carousel-indicators.-->
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <!--The data-target attribute points to the id of the carousel.-->
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              <!--The data-slide-to attribute specifies which slide to go to, when clicking on the specific dot.-->
+            </div>
+            <!-- wrapper for slides-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!--The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.-->
+                <img src="images/size pic/Room_suite5.jpg" class="rounded" class="img-responsive" width="100%">
+                <!-- class rounded used to give round shape to a picture-->
+              </div>
+              <div class="carousel-item">
+                <img src="images/size pic/single_bedroom3.jpg" class="rounded" class="img-responsive" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-responsive" width="100%">
+              </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+  
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 p-sm-5">
+          <div class="mt-5 text-center">
+            <p> Safety Deposit <br> Box Phone <br> Cot on request <br> Hairdryer <br> Mini Bar <br> Television <br> Daily Cleaning <br> Private bathroom <br> Balcony or patio <br> Room service</p>
+                <p><b>Only at €129 for each nights</b></p>
+                <a href="#" class="btn btn-primary">Check availablity</a>
+          </div>
+        </div>
+        <div class="row">
+        <!-- using row class for building row -->
+  
+        <div class="col-md-8 p-sm-5">
+          <!--col-md-3 using for 3colum of container in one row of medium screen/ using padding on sm responsive arround the colum-->
+  
+          <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Double Room</button></div>
+          <!-- d-grid used in bootstrap to display as grid layout / d- as display in css.-->
+  
+  
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!--class carousel slide adds a transition and animation effect, which makes the items slide when showing a new item-->
+            <!--data-ride="carousel" attribute tells Bootstrap to begin animating the carousel immediately when the page loads-->
+  
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <!--The indicators are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user is currently viewing).
+  
+                             The indicators are specified in an ordered list with class .carousel-indicators.-->
+  
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <!--The data-target attribute points to the id of the carousel.-->
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              <!--The data-slide-to attribute specifies which slide to go to, when clicking on the specific dot.-->
+            </div>
+  
+            <!-- wrapper for slides-->
+  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!--The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.-->
+                <img src="images/size pic/Room_suite5.jpg" class="rounded" class="img-responsive" width="100%">
+                <!-- class rounded used to give round shape to a picture-->
+              </div>
+  
+              <div class="carousel-item">
+                <img src="images/size pic/single_bedroom3.jpg" class="rounded" class="img-responsive" width="100%">
+              </div>
+  
+              <div class="carousel-item">
+                <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-responsive" width="100%">
+              </div>
+            </div>
+  
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+  
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+  
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 p-sm-5">
+          <div class="mt-5 text-center">
+            <p> Safety Deposit <br> Box Phone <br> Cot on request <br> Hairdryer <br> Mini Bar <br> Television <br> Daily Cleaning <br> Private bathroom <br> Balcony or patio <br> Room service</p>
+                <p><b>Only at €129 for each nights</b></p>
+                <a href="#" class="btn btn-primary">Check availablity</a>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <!-- using row class for building row -->
+    
+          <div class="col-md-8 p-sm-5">
+            <!--col-md-3 using for 3colum of container in one row of medium screen/ using padding on sm responsive arround the colum-->
+    
+            <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Single Room Suite</button></div>
+            <!-- d-grid used in bootstrap to display as grid layout / d- as display in css.-->
+    
+    
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+              <!--class carousel slide adds a transition and animation effect, which makes the items slide when showing a new item-->
+              <!--data-ride="carousel" attribute tells Bootstrap to begin animating the carousel immediately when the page loads-->
+    
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <!--The indicators are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user is currently viewing).
+    
+                               The indicators are specified in an ordered list with class .carousel-indicators.-->
+    
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <!--The data-target attribute points to the id of the carousel.-->
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <!--The data-slide-to attribute specifies which slide to go to, when clicking on the specific dot.-->
+              </div>
+    
+              <!-- wrapper for slides-->
+    
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <!--The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.-->
+                  <img src="images/size pic/Room_suite5.jpg" class="rounded" class="img-responsive" width="100%">
+                  <!-- class rounded used to give round shape to a picture-->
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="images/size pic/single_bedroom3.jpg" class="rounded" class="img-responsive" width="100%">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-responsive" width="100%">
+                </div>
+              </div>
+    
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+    
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+    
+            </div>
+          </div>
+          <div class="col-md-4 mt-5 p-sm-5">
+            <div class="mt-5 text-center">
+              <p> Safety Deposit <br> Box Phone <br> Cot on request <br> Hairdryer <br> Mini Bar <br> Television <br> Daily Cleaning <br> Private bathroom <br> Balcony or patio <br> Room service</p>
+                  <p><b>Only at €129 for each nights</b></p>
+                  <a href="#" class="btn btn-primary">Check availablity</a>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <!-- using row class for building row -->
+      
+            <div class="col-md-8 p-sm-5">
+              <!--col-md-3 using for 3colum of container in one row of medium screen/ using padding on sm responsive arround the colum-->
+      
+              <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Double Room Suite</button></div>
+              <!-- d-grid used in bootstrap to display as grid layout / d- as display in css.-->
+      
+      
+              <!-- Carousel -->
+              <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <!--class carousel slide adds a transition and animation effect, which makes the items slide when showing a new item-->
+                <!--data-ride="carousel" attribute tells Bootstrap to begin animating the carousel immediately when the page loads-->
+      
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                  <!--The indicators are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user is currently viewing).
+      
+                                 The indicators are specified in an ordered list with class .carousel-indicators.-->
+      
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                  <!--The data-target attribute points to the id of the carousel.-->
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                  <!--The data-slide-to attribute specifies which slide to go to, when clicking on the specific dot.-->
+                </div>
+      
+                <!-- wrapper for slides-->
+      
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <!--The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.-->
+                    <img src="images/size pic/Room_suite5.jpg" class="rounded" class="img-responsive" width="100%">
+                    <!-- class rounded used to give round shape to a picture-->
+                  </div>
+      
+                  <div class="carousel-item">
+                    <img src="images/size pic/single_bedroom3.jpg" class="rounded" class="img-responsive" width="100%">
+                  </div>
+      
+                  <div class="carousel-item">
+                    <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-responsive" width="100%">
+                  </div>
+                </div>
+      
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+      
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+      
+              </div>
+            </div>
+            <div class="col-md-4 mt-5 p-sm-5">
+              <div class="mt-5 text-center">
+                <p> Safety Deposit <br> Box Phone <br> Cot on request <br> Hairdryer <br> Mini Bar <br> Television <br> Daily Cleaning <br> Private bathroom <br> Balcony or patio <br> Room service</p>
+                    <p><b>Only at €129 for each nights</b></p>
+                    <a href="#" class="btn btn-primary">Check availablity</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+   <!--Footer and Copyright Information section, by Digvijaya-->
+   <div class="container-fluid">
+    <div class="row">
+      <div class="p-4 bg-black text-white text-center">
+        <p>The Overlook Hotel &copy; 2022, All Rights Reserved | <b>Made by Digvijaya, Nauman, Umar and
+            Saqlain</b>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

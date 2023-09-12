@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>The Overlook Hotel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Playball&display=swap"
+    rel="stylesheet">
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/LOGO_black.png" alt="The Overlook Hotel-Logo"
+          style="width: 200px; height: auto;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav me-auto">
+          <ul class="nav nav-pills">
+            <!--Nav Pills-->
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="room.html">Our Rooms</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="team.html">Our Team</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="pill">
+              <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+          </ul>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div> 
+    </div>
+  </nav>
+
+
+  <div class="container-fluid pe-0 ps-0">
+    <div class="row">
+      <div class="col-sm-12">
+    <img src="images/Welcome_homepage1.jpg" class="img-responsive" width="100%">
+    <div class="text-center mt-2 mb-2 ps-5 pe-5"
+    <h1> <b> The OverLook Hotel </b> </h1>
+    <p>The Overlook Hotel is a small but luxurious hotel with a rich history stretching back to the 17th
+      century. It has been owned by the same family for generations. Guests come to the hotel for the history
+      and the atmosphere, and there is a strong emphasis
+      on tradition everywhere from the rooms to the exterior. Our guest arrive from all over the world to
+      enjoy our luxurious, traditional accommodation. We only have 37 rooms, distributed on the first 2 floors
+      of the hotel, and 5 suites of
+      various sizes on the top floor.</p>
+    <a href="about.html" class="btn btn-primary">Read More</a>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+
+  <div class="container-fluid1">
+    <!--using mt-5 for top margin using bootstrap 5 and container fluid for use full secreen -->
+
+    <div class="row">
+      <!-- using row class for building row -->
+
+      <div class="col-md-3 p-sm-5">
+        <!--col-md-3 using for 3colum of container in one row of medium screen/ using padding on sm responsive arround the colum-->
+
+        <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Single Room</button></div>
+        <!-- d-grid used in bootstrap to display as grid layout / d- as display in css.-->
+
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!--class carousel slide adds a transition and animation effect, which makes the items slide when showing a new item-->
+          <!--data-ride="carousel" attribute tells Bootstrap to begin animating the carousel immediately when the page loads-->
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <!--The indicators are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user is currently viewing).
+
+                      The indicators are specified in an ordered list with class .carousel-indicators.-->
+
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <!--The data-target attribute points to the id of the carousel.-->
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <!--The data-slide-to attribute specifies which slide to go to, when clicking on the specific dot.-->
+          </div>
+
+          <!-- wrapper for slides-->
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!--The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.-->
+              <img src="images/size pic/Room_suite5.jpg" class="rounded" class="img-responsive" width="100%">
+              <!-- class rounded used to give round shape to a picture-->
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/size pic/single_bedroom3.jpg" class="rounded" class="img-responsive" width="100%">
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-responsive" width="100%">
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="col-md-3 p-sm-5">
+        <!--using padding on sm responsive arround the colum-->
+        <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Double Room</button></div>
+        <!-- Carousel -->
+        <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/size pic/single_bedroom3.jpg" class="rounded" class="img-responsive" width="100%">
+              <!-- class rounded used to give round shape to a picture-->
+            </div>
+            <div class="carousel-item">
+              <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-responsive" width="100%">
+            </div>
+            <div class="carousel-item">
+              <img src="images/size pic/Single_bedroom6.jpg" class="rounded" class="img-responsive" width="100%">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <!-- Left and right controls/icons -->
+
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3 p-sm-5">
+        <!--using padding on sm responsive arround the colum-->
+        <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Presidential Suit</button></div>
+        <!-- Carousel -->
+        <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-responsive" width="100%">
+              <!-- class rounded used to give round shape to a picture-->
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/size pic/Single_bedroom6.jpg" class="rounded" class="img-responsive" width="100%">
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/size pic/Room_suite5.jpg" class="rounded" class="img-responsive" width="100%">
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="col-md-3 p-sm-5">
+        <!--using padding on sm responsive arround the colum-->
+        <div class="d-grid"> <button type="button" class="btn btn-dark btn-block">Crown Suit</button></div>
+        <!-- Carousel -->
+        <div id="demo3" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo3" data-bs-slide-to="2"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-fluid" width="100%">
+              <!-- class rounded used to give round shape to a picture-->
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-fluid" width="100%">
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/size pic/Room_suite9.jpeg" class="rounded" class="img-fluid" width="100%">
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid mt-1">
+
+        <div class="row">
+          <div class="col-sm-6 p-5 text-black text-center">
+            <h3>Breakfast</h3>
+            <p>our signature breakfast restaurants at he overlook hotel offers local and international cuisines
+              raniging from hearty breakfast buffets to moiunt watering lunchs and dinning.our on site dining
+              options offer a variety of tasteful and flavorful
+              dishes.
+            </p>
+          </div>
+          <div class="col-sm-6 pe-0">
+            <img src="Images/New pics/New-Break.jpg" width="100%">
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 ps-0 mt-1">
+            <img src="Images/New pics/New-Dine.jpg" width="100%">
+          </div>
+          <div class="col-sm-6 pt-5 mt-1 text-black text-center">
+
+            <h3>Dining</h3>
+            <p>Our signature dining restaurants at The Overlook Hotel offers local and international cuisines
+              ranging from hearty breakfast buffets to mouth-watering lunches and dinners. Our on-site dining
+              options offer a variety of tasteful and flavorful
+              dishes.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 mt-1 p-5 text-black text-center">
+            <h3>Fitness & Wellness</h3>
+            <p>The Overlook Hotel is the perfect place for your dream wedding and other festive celebrations. Our
+              beautiful marquees and luxury banquet halls are the most attractive and suitable venues for formal and
+              informal events. Our sublime locations
+              and banqueting team's commitment to deliver unsurpassed sevices are unparalleled.
+            </p>
+          </div>
+
+          <div class="col-sm-6 pe-0 mt-1">
+            <img src="Images/New pics/New-Yoga1.jpg" width="100%">
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-sm-6 mt-1 ps-0">
+            <img src="Images/New pics/New-Swim2.jpg" width="100%">
+          </div>
+          <div class="col-sm-6 p-5 mt-1 text-black text-center">
+
+            <h3>Swimming Pool</h3>
+            <p>The Overlook Hotel offers a very stunningly beautiful and relazing swimming pool under the laps of
+              nature surrounded by palm trees and natural views. You can relax here and enoy your time with your
+              loved ones.
+            </p>
+          </div>
+        </div>
+
+
+
+        <div class="container-fluid mt-1">
+          <div class="row">
+            <div class="col-sm-3 mt-1 p-5 text-black text-center">
+              <h1>Our Awards</h1>
+              <div class="mt-4">
+                <p>We have been awarded by different awards over the period</p>
+              </div>
+            </div>
+            <div class="col-sm-3 mt-1 pt-2 pb-2">
+              <img src="Images/award1.png" class="img-fluid" width="100%">
+            </div>
+            <div class="col-sm-3 mt-1 pt-2 pb-2">
+              <img src="Images/award2.png" class="img-fluid" width="100%">
+            </div>
+            <div class="col-sm-3 mt-1 pt-2 pb-2">
+              <img src="Images/Award3.png" class="img-fluid" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid2 mt-1">
+        <div class="row">
+
+          <div class="col-sm-6 mt-1">
+            <div class="gmap_canvas"><iframe width="100%" height="370" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=via%20%20horsens&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="10" scrolling="no" marginheight="10"></iframe></iframe>
+              <a href="https://www.embedgooglemap.net"></a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 text-center mt-1 pt-3">
+            <h1>Find Us</h1>
+            <div class="address-text">
+              <h4>The OverLook Hotel <br> Banegårdsgade 2 <br> 8700 Horsens <br> Tel: +45 52608253 <br>
+                Viber/Whatsapp: +977 9860103950 <br> Email: info@theoverlookhotel.com <br> <br> Opening Hours:<br>
+                Monday - Sunday : 6am - 10pm</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <!--Footer and Copyright Information section, by Digvijaya-->
+    <div class="container-fluid ps-0 pe-0 ">
+      <div class="row">
+        <div class="p-4 bg-black text-white text-center">
+          <p>The Overlook Hotel &copy; 2022, All Rights Reserved | <b>Made by Digvijaya, Nauman, Umar and
+              Saqlain</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
