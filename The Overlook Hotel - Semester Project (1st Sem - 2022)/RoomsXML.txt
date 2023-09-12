@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<roomList>
+
+<room>
+   <roomNumber>0</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>1</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>2</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>3</roomNumber>
+   <roomType>DOUBLE_BEDROOM</roomType>
+   <pricePerNight>295.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>4</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>5</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>6</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>7</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>8</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>9</roomNumber>
+   <roomType>DOUBLE_BEDROOM</roomType>
+   <pricePerNight>295.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>10</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>11</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>12</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>13</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>14</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>15</roomNumber>
+   <roomType>DOUBLE_BEDROOM</roomType>
+   <pricePerNight>295.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>16</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>17</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>18</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>19</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>20</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>21</roomNumber>
+   <roomType>DOUBLE_BEDROOM</roomType>
+   <pricePerNight>295.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>22</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>23</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>24</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>25</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>26</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>27</roomNumber>
+   <roomType>DOUBLE_BEDROOM</roomType>
+   <pricePerNight>295.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>28</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>29</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>30</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>31</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>32</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>33</roomNumber>
+   <roomType>DOUBLE_BEDROOM</roomType>
+   <pricePerNight>295.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>34</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>35</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>36</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>37</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>38</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>39</roomNumber>
+   <roomType>DOUBLE_BEDROOM</roomType>
+   <pricePerNight>295.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>40</roomNumber>
+   <roomType>FAMILY_ROOM</roomType>
+   <pricePerNight>400.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+<room>
+   <roomNumber>41</roomNumber>
+   <roomType>SINGLE_BEDROOM</roomType>
+   <pricePerNight>150.0</pricePerNight>
+    <isCheckedIn>false</isCheckedIn>
+</room>
+</roomList>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="458.0" prefWidth="292.0"
+            style="-fx-background-color: #f2ebd3;" xmlns="http://javafx.com/javafx/16"
+            fx:controller="view.CheckOutReceiptController">
+   <children>
+      <Label layoutX="93.0" layoutY="14.0" prefHeight="45.0" prefWidth="104.0" text="Receipt">
+         <font>
+            <Font name="Elephant Italic" size="24.0"/>
+         </font>
+      </Label>
+      <VBox layoutX="23.0" layoutY="151.0" prefHeight="200.0" prefWidth="110.0" AnchorPane.bottomAnchor="151.0">
+         <children>
+            <Label text="Stayed From :">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label text="Stayed to :">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label text="Room Number :">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label text="Price per night :">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="110.0" text="Total nights :">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label text="Total Price :">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="163.0" layoutY="96.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="stayedFrom" text="Label">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label fx:id="stayedTo" text="Label">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label fx:id="roomNumber" text="Label">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label fx:id="pricePerNight" text="Label">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label fx:id="totalNightsStayed" text="Label">
+               <VBox.margin>
+                  <Insets bottom="15.0"/>
+               </VBox.margin>
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+            <Label fx:id="totalPrice" text="Label">
+               <font>
+                  <Font size="14.0"/>
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button layoutX="93.0" layoutY="381.0" mnemonicParsing="false" onAction="#cancel" text="Cancel "/>
+      <Button layoutX="171.0" layoutY="381.0" mnemonicParsing="false" onAction="#finish" text="Finish"/>
+   </children>
+</AnchorPane>

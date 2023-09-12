@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="347.0" prefWidth="238.0"
+            style="-fx-background-color: #f2ebd3;" xmlns="http://javafx.com/javafx/16"
+            fx:controller="view.AddGuestsController">
+   <children>
+      <Label layoutX="63.0" layoutY="26.0" prefHeight="14.0" prefWidth="111.0" text="Add Guests">
+         <font>
+            <Font name="Elephant" size="18.0"/>
+         </font>
+      </Label>
+      <TextField fx:id="firstName" layoutX="22.0" layoutY="90.0"/>
+      <TextField fx:id="lastName" layoutX="22.0" layoutY="155.0"/>
+      <TextField fx:id="nationality" layoutX="22.0" layoutY="212.0"/>
+      <TextField fx:id="phone" layoutX="22.0" layoutY="265.0"/>
+      <Button layoutX="97.0" layoutY="306.0" mnemonicParsing="false" onAction="#cancel" text="Cancel"/>
+      <Button layoutX="163.0" layoutY="306.0" mnemonicParsing="false" onAction="#checkIn" text="Check-in"/>
+      <Label layoutX="14.0" layoutY="72.0" text="FirstName"/>
+      <Label layoutX="15.0" layoutY="137.0" text="Lastname"/>
+      <Label layoutX="12.0" layoutY="194.0" text="Nationality"/>
+      <Label layoutX="15.0" layoutY="247.0" text="Phone"/>
+      <Button layoutX="41.0" layoutY="306.0" mnemonicParsing="false" onAction="#add" text="Add"/>
+   </children>
+</AnchorPane>

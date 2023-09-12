@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<reservationList>
+
+<reservation>
+   <arrival>2022-06-02</arrival>
+   <departure>2022-07-20</departure>
+   <roomNumber>9</roomNumber>
+    <isCheckedIn>true</isCheckedIn>
+</reservation>
+<reservation>
+   <arrival>2022-06-17</arrival>
+   <departure>2022-07-23</departure>
+   <roomNumber>8</roomNumber>
+    <isCheckedIn>false</isCheckedIn>
+</reservation>
+<reservation>
+   <arrival>2022-06-17</arrival>
+   <departure>2022-07-23</departure>
+   <roomNumber>7</roomNumber>
+    <isCheckedIn>true</isCheckedIn>
+</reservation>
+<reservation>
+   <arrival>2022-07-20</arrival>
+   <departure>2022-07-29</departure>
+   <roomNumber>39</roomNumber>
+    <isCheckedIn>true</isCheckedIn>
+</reservation>
+<reservation>
+   <arrival>2022-07-20</arrival>
+   <departure>2022-07-29</departure>
+   <roomNumber>16</roomNumber>
+    <isCheckedIn>false</isCheckedIn>
+</reservation>
+<reservation>
+   <arrival>2022-07-20</arrival>
+   <departure>2022-07-29</departure>
+   <roomNumber>27</roomNumber>
+    <isCheckedIn>true</isCheckedIn>
+</reservation>
+</reservationList>

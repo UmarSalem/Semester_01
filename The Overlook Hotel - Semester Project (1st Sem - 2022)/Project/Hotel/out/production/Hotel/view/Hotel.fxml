@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="476.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.HotelController">
+    <children>
+        <TabPane layoutX="-2.0" layoutY="-2.0" prefHeight="476.0" prefWidth="670.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Book">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #f2ebd3;">
+                            <children>
+                                <TableView fx:id="bookingTableView" layoutX="8.0" layoutY="55.0" prefHeight="291.0" prefWidth="450.0">
+                                    <columns>
+                                        <TableColumn fx:id="bookingRoomNumber" prefWidth="150.0" text="RoomNumber" />
+                                        <TableColumn fx:id="bookingRoomType" prefWidth="150.0" text="RoomType" />
+                                        <TableColumn fx:id="bookingRoomPricePerNight" prefWidth="150.0" text="Price per night" />
+                                    </columns>
+                                </TableView>
+                                <Label layoutX="14.0" layoutY="23.0" text="Available Rooms :" textAlignment="CENTER">
+                                    <font>
+                                        <Font name="Elephant" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Button layoutX="47.0" layoutY="360.0" mnemonicParsing="false" onAction="#bookingBook" text="Book" />
+                                <Button layoutX="509.0" layoutY="295.0" mnemonicParsing="false" onAction="#searchBooking" text="Search" />
+                                <DatePicker fx:id="bookingArrival" layoutX="462.0" layoutY="93.0" />
+                                <DatePicker fx:id="bookingDeparture" layoutX="462.0" layoutY="175.0" />
+                                <Label layoutX="500.0" layoutY="55.0" prefHeight="22.0" prefWidth="70.0" text="Arrival :">
+                                    <font>
+                                        <Font name="Elephant" size="14.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="500.0" layoutY="149.0" text="Departure ;">
+                                    <font>
+                                        <Font name="Elephant" size="14.0" />
+                                    </font>
+                                </Label>
+                                <ChoiceBox fx:id="bookingChoiceBox" layoutX="474.0" layoutY="252.0" onInputMethodTextChanged="#searchBooking" onKeyPressed="#searchBooking" onKeyReleased="#searchBooking" onKeyTyped="#searchBooking" onMouseClicked="#searchBooking" onMouseExited="#searchBooking" prefWidth="150.0" />
+                                <Label layoutX="483.0" layoutY="224.0" text="Select Room Type :">
+                                    <font>
+                                        <Font name="Elephant" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Check-in">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #f2ebd3;">
+                            <children>
+                                <TableView fx:id="checkInTable" layoutX="8.0" layoutY="62.0" prefHeight="246.0" prefWidth="500.0">
+                                    <columns>
+                                        <TableColumn fx:id="checkInBookerName" prefWidth="100.0" text="Booker name" />
+                                        <TableColumn fx:id="checkInRoomNumber" prefWidth="100.0" text="Room number" />
+                                        <TableColumn fx:id="checkInArrival" prefWidth="100.0" text="Arrival" />
+                                        <TableColumn fx:id="checkInDeparture" prefWidth="100.0" text="Departure" />
+                                        <TableColumn fx:id="checkInIsCheckedIn" prefWidth="100.0" text="IsCheckedIn" />
+                                    </columns>
+                                </TableView>
+                                <Label layoutX="8.0" layoutY="35.0" text="Current bookings :" textAlignment="CENTER">
+                                    <font>
+                                        <Font name="Elephant" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Button layoutX="233.0" layoutY="375.0" mnemonicParsing="false" onAction="#checkIn" text="Check-in" />
+                                <Button layoutX="328.0" layoutY="375.0" mnemonicParsing="false" onAction="#checkInDelete" text="Delete" />
+                                <CheckBox fx:id="checkInCheckBox" layoutX="53.0" layoutY="315.0" mnemonicParsing="false" onAction="#checkInFilter" text="Checked-ins only" />
+                                <Button layoutX="415.0" layoutY="375.0" mnemonicParsing="false" onAction="#checkOut" text="Check-out" />
+                        <TextField fx:id="checkInPhoneNumber" layoutX="536.0" layoutY="199.0" prefHeight="26.0" prefWidth="122.0" promptText="Phone number" />
+                        <Button layoutX="571.0" layoutY="241.0" mnemonicParsing="false" onAction="#checkinSearch" text="Search" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Export">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #f2ebd3;">
+                            <children>
+                                <Button layoutX="184.0" layoutY="41.0" mnemonicParsing="false" onAction="#exportRooms" prefHeight="94.0" prefWidth="213.0" text="Export Rooms" />
+                                <Button layoutX="184.0" layoutY="157.0" mnemonicParsing="false" onAction="#exportReservations" prefHeight="94.0" prefWidth="213.0" text="Export Reservations" />
+                                <Button layoutX="184.0" layoutY="274.0" mnemonicParsing="false" onAction="#exportBoth" prefHeight="94.0" prefWidth="213.0" text="Export both" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
